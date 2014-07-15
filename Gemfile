@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rake'
-gem 'pushpop'
+gem 'pushpop', :git => 'https://github.com/pushpop-project/pushpop'
 
 # uncomment plugins if needed
 # gem 'pushpop-keen'
