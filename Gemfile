@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'pushpop', :git => 'https://github.com/pushpop-project/pushpop'
+gem 'pushpop'
 
 # uncomment plugins if needed
 # gem 'pushpop-keen'
