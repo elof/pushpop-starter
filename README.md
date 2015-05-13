@@ -25,3 +25,15 @@ This guide is going to assume you have these things installed.
 There is an [example job](jobs/example_job.rb) in this repo that can provide some structure for you to get started. You can either delete that job and start fresh, or rename it, start editing, and get rolling.
 
 If you want some more information about all of the different things you can do in a pushpop job, checkout the [Pushpop README](https://github.com/pushpop-project/pushpop#quickstart).
+
+### Running in Production
+
+Running a pushpop instance in production requires a worker to be available *24/7*. That worker is constantly checking the clock to see if you have any jobs that need to be run. To spawn pushpop with a persistent worker, use the `run` command.
+
+```bash
+pushpop jobs:run
+```
+
+That will automatically schedule and run all jobs in your `jobs/` folder.
+
+You can turn off that Pushpop job with whatever your usual console terminate command is - for most people this is `ctrl+c`.
