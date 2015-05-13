@@ -13,7 +13,7 @@ This guide is going to assume you have these things installed.
 
 ### Install
 
-1. [Download](archive/master.zip) this starter project
+1. [Download](https://github.com/pushpop-project/pushpop-starter/archive/master.zip) this starter project
 2. Unzip the package and place the pushpop-starter folder wherever you want it
 3. Open a terminal, and `cd` to your pushpop-starter repo
 4. `bundle install`
